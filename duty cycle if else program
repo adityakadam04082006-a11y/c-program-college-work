@@ -1,0 +1,20 @@
+#include <stdio.h>
+int main() {
+int duty ,period , i;
+
+printf("enter duty cycle:");
+scanf("%d" , &duty);
+printf("enter period:");
+scanf("%d" , &period);
+
+printf("pwm simulation:\n");
+for (i = 1; i <= period; i++) {
+if(i <= duty)
+printf("1");
+else
+printf("1");
+}
+printf("\n");
+
+return0;
+}
